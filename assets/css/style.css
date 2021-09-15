@@ -4,6 +4,8 @@
     background: darkslateblue;
 }
 
+/* header */
+
 header {
     padding: 20px;
     color: white;
@@ -14,6 +16,8 @@ header h1 {
     display: inline-block;
     font-size: 48px;
 }
+
+/* navigation */
 
 nav {
     pading-top: 20px;
@@ -32,8 +36,17 @@ nav li {
     margin-left: 25px;
     padding: 10px;
     border: 2px solid black;
+    transition: all 0.2s ease-in-out;
+    border-radius: 4px;
 
 }
+
+nav li:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, .4);
+}
+
+/* banner */
 
 .banner {
     width: 100%;
@@ -44,11 +57,46 @@ nav li {
 }
 
 .banner h2 {
-    color: white;
     background: rgba(72, 61, 139, 0.7);
     padding: 10px;
     position: absolute;
     bottom: 5%;
     right: 2%;
     
+}
+
+/* hide that a part of the banner is a link */
+
+.remove-link a:link, .remove-link a:visited, .remove-link a:hover, .remove-link a:active  {
+    text-decoration: none;
+    background: none;
+    color: white;
+}
+
+/* about-me section */
+
+.about-me {
+    display: flex;
+    margin-top: 40px;
+}
+
+.right-side {
+    font-size: 48px;
+    /* width: 20%; */
+    height: auto;
+    border-right: 5px solid white;
+    text-align: right;
+    margin-right: 20px;
+    margin-left: 20%;
+    color: white;
+    padding: 20px;
+}
+
+.left-side p {
+    margin-bottom: 20px;
+
+}
+
+.work {
+    margin-top: 40px;
 }
