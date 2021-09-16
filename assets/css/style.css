@@ -148,3 +148,26 @@ section {
     padding-bottom: 5px;
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 768px) {
+
+    section {
+      flex-direction: column;
+      align-items: center;
+      margin-right: 20px;
+    }
+    .right-side {
+        border-bottom: 2px solid white;
+        border-right: 0;
+    }
+
+    .left-side {
+        text-align: justify;
+        flex-basis: 400px;
+    }
+
+    #contact-info {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
