@@ -116,8 +116,13 @@ section {
 .child img {
     width: 100%;
     height: auto;
-    min-width: 200px;
+    min-width: 300px;
+    /* max-width: 700px; */
     border-radius: 10px;
+}
+
+.child:first-child {
+    width: 100%;
 }
 
 .title {
@@ -159,6 +164,8 @@ section {
     .right-side {
         border-bottom: 2px solid white;
         border-right: 0;
+        padding: 0px;
+        min-width: auto;
     }
 
     .left-side {
