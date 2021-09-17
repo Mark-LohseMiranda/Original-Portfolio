@@ -67,7 +67,7 @@ nav li:hover {
     font-size: 1.5vw;
 }
 
-/* hide that a part of the banner is a link */
+/* hide that a part of the banner is a link; these aren't the focus*/
 
 .remove-link a:link, .remove-link a:visited, .remove-link a:hover, .remove-link a:active {
     text-decoration: none;
@@ -95,7 +95,6 @@ section {
 }
 
 .left-side {
-    flex-basis: 700px;
     color: white;
     margin-left: 20px;
 }
@@ -117,12 +116,11 @@ section {
     width: 100%;
     height: auto;
     min-width: 300px;
-    /* max-width: 700px; */
     border-radius: 10px;
 }
 
-.child:first-child {
-    width: 100%;
+.child:last-child {
+    flex-basis: 100%;
 }
 
 .title {
@@ -132,20 +130,21 @@ section {
     bottom: 40px;
     left: 20px;
     font-size: 24px;
-    /* 1.5vw */
     border-radius: 10px;
     line-height: 0%;
 }
 
 .title p:first-child {
     font-size: 36px;
-    /* 2vw */
     font-weight: bold;
 }
+
+/* style contact section */
 
 #contact-info {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     justify-content: space-around;
     align-items: center;
 }
@@ -156,15 +155,7 @@ section {
     margin-bottom: 0;
 }
 
-/* @media screen and (min-width: 1798px) {
-    .title {
-        font-size: 24px;
-    }
-
-    .title p:first-child {
-        font-size: 36px;
-    }
-} */
+/* For screens 768px and smaller */
 
 @media screen and (max-width: 768px) {
 
@@ -182,7 +173,6 @@ section {
 
     .left-side {
         text-align: justify;
-        flex-basis: 400px;
     }
 
     #contact-info {
