@@ -117,6 +117,13 @@ section {
     height: auto;
     min-width: 300px;
     border-radius: 10px;
+    
+    
+}
+
+.child img:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, .4);
 }
 
 .child:last-child {
@@ -135,7 +142,7 @@ section {
 }
 
 .title p:first-child {
-    font-size: 36px;
+    font-size: 3vw;
     font-weight: bold;
 }
 
