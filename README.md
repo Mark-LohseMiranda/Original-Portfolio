@@ -22,6 +22,9 @@
 
 ### Usage
 
+![Screen Shot 2021-11-09 at 6 27 24 PM](https://user-images.githubusercontent.com/83737312/141038506-7cd3dec2-1102-42ec-aa38-22c62430812b.png)
+
+
 > [https://mark-lohsemiranda.github.io/Portfolio/](https://mark-lohsemiranda.github.io/Portfolio/)
 
 ### License
